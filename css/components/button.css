@@ -1,0 +1,23 @@
+.btn-green {
+	background-color: rgba(109, 159, 113, 1.0);
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+
+}
+
+.btn-green1 {
+	background-color: rgba(109, 159, 113, 1.0);
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'roboto', sans-serif;
+	display: block;
+  	margin:0 auto;
+  	  width: 300px;
+    margin-left: 0px;
+    text-align: center;
+}

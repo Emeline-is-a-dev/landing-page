@@ -1,0 +1,114 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+
+/*.navbar {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}*/
+
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: px;
+}
+
+h4{
+  text-align: center;
+  font-size: 10%;
+  margin-top: 50px !important;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+  padding: 8px;
+ /* background-color: #333;*/
+}
+
+.nav-item {
+  background-color: white;
+}
+
+ul {
+
+ 
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #ffffff;
+}
+
+.kranky {
+  font-family: 'Kranky', cursive;
+}
+.krankyy {
+  font-family: 'Kranky', cursive;
+  text-align: center;
+}
+
+.videocontainer {
+  height:700px;
+  overflow: hidden;
+}
+
+
+/*.videocontainer video{
+  margin-top: -300px;
+}*/
+
+col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+        padding: 100px 200px;
+        background: #666;
+        color: white;
+}
+
+.center {
+  display: block;
+}
+
+.monpadding{
+  padding: 50px 50px;
+}
+
+.cards {
+      display: flex;
+    justify-content: center;
+}

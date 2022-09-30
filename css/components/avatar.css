@@ -1,0 +1,23 @@
+.avatar {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+    object-position: top;
+}
+
+.image-centre {
+	width: 300px;
+	height: 300px;
+	border-radius: 10%;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.image-centre1 {
+
+	height: 300px;
+	border-radius: 10%;
+	object-fit: cover;
+	object-position: bottom;
+}
